@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mind AI: router fans out to 7 laws in parallel, then summarizes one cited answer">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .box { fill: #0d1117; stroke: #334155; stroke-width: 1.5; }
+      .hot { stroke: #22d3ee; }
+      .lbl { fill: #e5e7eb; font-size: 14px; }
+      .sub { fill: #6b7280; font-size: 12px; }
+      .law { fill: #0d1117; stroke: #a78bfa; stroke-width: 1.5; }
+      .tick { fill: #34d399; font-size: 12px; opacity: 0; animation: tick 4s infinite; }
+      @keyframes tick { 0%,45% { opacity: 0 } 55%,90% { opacity: 1 } 100% { opacity: 0 } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="#0b0f17"/>
+
+  <g class="mono">
+    <!-- edges -->
+    <g fill="none" stroke="#1f2937" stroke-width="1.5">
+      <path d="M200 150 H300"/>
+      <path id="a0" d="M420 150 C480 150 500 42 560 42"/>
+      <path id="a1" d="M420 150 C480 150 500 78 560 78"/>
+      <path id="a2" d="M420 150 C480 150 500 114 560 114"/>
+      <path id="a3" d="M420 150 H560"/>
+      <path id="a4" d="M420 150 C480 150 500 186 560 186"/>
+      <path id="a5" d="M420 150 C480 150 500 222 560 222"/>
+      <path id="a6" d="M420 150 C480 150 500 258 560 258"/>
+      <path id="b0" d="M660 42 C720 42 740 150 800 150"/>
+      <path id="b1" d="M660 78 C720 78 740 150 800 150"/>
+      <path id="b2" d="M660 114 C720 114 740 150 800 150"/>
+      <path id="b3" d="M660 150 H800"/>
+      <path id="b4" d="M660 186 C720 186 740 150 800 150"/>
+      <path id="b5" d="M660 222 C720 222 740 150 800 150"/>
+      <path id="b6" d="M660 258 C720 258 740 150 800 150"/>
+      <path d="M940 150 H1000"/>
+    </g>
+
+    <!-- pulses: out to laws, then back to summarizer -->
+    <g fill="#22d3ee">
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a0"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a1"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a2"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a3"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a4"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a5"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.4;1" calcMode="linear"><mpath href="#a6"/></animateMotion></circle>
+    </g>
+    <g fill="#a78bfa">
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b0"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b1"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b2"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b3"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b4"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b5"/></animateMotion></circle>
+      <circle r="3.5"><animateMotion dur="4s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.85;1" calcMode="linear"><mpath href="#b6"/></animateMotion></circle>
+    </g>
+
+    <!-- nodes -->
+    <rect class="box" x="40" y="126" width="160" height="48" rx="10"/>
+    <text class="lbl" x="120" y="148" text-anchor="middle">question</text>
+    <text class="sub" x="120" y="164" text-anchor="middle">ภาษาไทย</text>
+
+    <rect class="box hot" x="300" y="126" width="120" height="48" rx="10"/>
+    <text class="lbl" x="360" y="155" text-anchor="middle" fill="#22d3ee">router</text>
+
+    <g>
+      <rect class="law" x="560" y="28" width="100" height="28" rx="7"/><text class="lbl" x="598" y="47" text-anchor="middle">§ law 1</text><text class="tick" x="644" y="47">✓</text>
+      <rect class="law" x="560" y="64" width="100" height="28" rx="7"/><text class="lbl" x="598" y="83" text-anchor="middle">§ law 2</text><text class="tick" x="644" y="83" style="animation-delay:.1s">✓</text>
+      <rect class="law" x="560" y="100" width="100" height="28" rx="7"/><text class="lbl" x="598" y="119" text-anchor="middle">§ law 3</text><text class="tick" x="644" y="119" style="animation-delay:.2s">✓</text>
+      <rect class="law" x="560" y="136" width="100" height="28" rx="7"/><text class="lbl" x="598" y="155" text-anchor="middle">§ law 4</text><text class="tick" x="644" y="155" style="animation-delay:.05s">✓</text>
+      <rect class="law" x="560" y="172" width="100" height="28" rx="7"/><text class="lbl" x="598" y="191" text-anchor="middle">§ law 5</text><text class="tick" x="644" y="191" style="animation-delay:.15s">✓</text>
+      <rect class="law" x="560" y="208" width="100" height="28" rx="7"/><text class="lbl" x="598" y="227" text-anchor="middle">§ law 6</text><text class="tick" x="644" y="227" style="animation-delay:.25s">✓</text>
+      <rect class="law" x="560" y="244" width="100" height="28" rx="7"/><text class="lbl" x="598" y="263" text-anchor="middle">§ law 7</text><text class="tick" x="644" y="263" style="animation-delay:.1s">✓</text>
+    </g>
+
+    <rect class="box hot" x="800" y="126" width="140" height="48" rx="10"/>
+    <text class="lbl" x="870" y="155" text-anchor="middle" fill="#a78bfa">summarize</text>
+
+    <rect class="box" x="1000" y="126" width="160" height="48" rx="10" stroke="#34d399"/>
+    <text class="lbl" x="1080" y="148" text-anchor="middle" fill="#34d399">cited answer</text>
+    <text class="sub" x="1080" y="164" text-anchor="middle">§2 · §4 · §6</text>
+
+    <text class="sub" x="40" y="36">MIND AI · fan-out RAG</text>
+    <text class="sub" x="40" y="276">vLLM + LiteLLM · 8× H200 · on-prem</text>
+    <text class="sub" x="1160" y="276" text-anchor="end">7 laws in parallel, not 7× latency</text>
+  </g>
+</svg>
