@@ -100,12 +100,5 @@ now:       Mind AI passed final acceptance for production in the Ministry of Ind
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Krit03W/Krit03W/output/snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Krit03W/Krit03W/output/snake-dark.svg" alt="Contribution snake"/>
-  </picture>
-</p>
-
-<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=6B7280&center=true&vCenter=true&width=500&lines=Let's+build+the+next+agent.+%E2%86%92+wijak.mano%40gmail.com" alt="Let's build the next agent"/>
 </p>
