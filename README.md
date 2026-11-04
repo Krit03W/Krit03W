@@ -22,7 +22,7 @@
 name:      Wijak Manoprang
 role:      Fullstack AI Engineer
 based_in:  Bangkok, Thailand 🇹🇭
-focus:     [multi-agent systems, RAG, MCP tool orchestration, on-prem LLM serving]
+focus:     [multi-agent, RAG, MCP tools, on-prem LLMs]
 philosophy: "Engineer first, then the model — measured before trusted."
 now:       Shipping multi-agent RAG systems to production
 ```
