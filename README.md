@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://wijak.org"><img src="./assets/header.svg" alt="Wijak Manoprang — Fullstack AI Engineer" width="100%"/></a>
+  <a href="https://wijak.org"><img src="./assets/header.svg?v=2" alt="Wijak Manoprang — Fullstack AI Engineer" width="100%"/></a>
 </p>
 
 <p align="center">
