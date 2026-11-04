@@ -84,13 +84,6 @@ now:       Mind AI passed final acceptance for production in the Ministry of Ind
 <p align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Krit03W&theme=github_dark" alt="Profile details"/>
 </p>
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Krit03W&theme=github_dark" alt="GitHub stats"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Krit03W&theme=github_dark" alt="Top languages"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Krit03W&hide_border=true&background=0D1117&ring=A78BFA&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=6B7280&stroke=1F2937" alt="Streak"/>
-</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=6B7280&center=true&vCenter=true&width=500&lines=Let's+build+the+next+agent.+%E2%86%92+wijak.mano%40gmail.com" alt="Let's build the next agent"/>
