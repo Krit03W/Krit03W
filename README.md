@@ -32,13 +32,6 @@ now:       Mind AI passed final acceptance for production in the Ministry of Ind
 
 <p align="center"><img src="./assets/fanout.svg" alt="Mind AI fan-out RAG" width="100%"/></p>
 
-| | |
-|:--|:--|
-| ⚖️ **Laws queried in parallel** | **7**, without 7× latency |
-| 🧑‍⚖️ **Legal eval with Ministry lawyers** | **600 Qs**, LLM-as-judge |
-| ✅ **Fine-tuned model acceptance** | **> 95%** |
-| 🖥️ **Self-hosted, no external LLM API** | **8× H200** · vLLM + LiteLLM |
-
 ### `> ls ~/selected-work`
 
 | Project | What it does | Numbers |
