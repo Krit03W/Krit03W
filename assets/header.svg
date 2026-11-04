@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Wijak Manoprang — AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Wijak Manoprang — Fullstack AI Engineer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b0f17"/>
@@ -40,7 +40,7 @@
 
   <!-- left: text -->
   <g class="mono fade d1">
-    <text x="64" y="84" fill="#22d3ee" font-size="16" letter-spacing="3">AI ENGINEER · BANGKOK</text>
+    <text x="64" y="84" fill="#22d3ee" font-size="16" letter-spacing="3">FULLSTACK AI ENGINEER · BANGKOK</text>
   </g>
   <g class="sans fade d2">
     <text x="62" y="152" fill="url(#title)" font-size="62" font-weight="800">Wijak Manoprang</text>

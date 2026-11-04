@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://wijak.org"><img src="./assets/header.svg" alt="Wijak Manoprang — AI Engineer" width="100%"/></a>
+  <a href="https://wijak.org"><img src="./assets/header.svg" alt="Wijak Manoprang — Fullstack AI Engineer" width="100%"/></a>
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 ```yaml
 name:      Wijak Manoprang
-role:      AI Engineer @ New Technology Information (NTI)
+role:      Fullstack AI Engineer @ New Technology Information (NTI)
 based_in:  Bangkok, Thailand 🇹🇭
 education: B.Eng. Robotics & Automation, KMUTT
 focus:     [multi-agent systems, RAG, MCP tool orchestration, on-prem LLM serving]
@@ -52,7 +52,7 @@ now:       Mind AI passed final acceptance for production in the Ministry of Ind
 ### `> history | grep work`
 
 ```diff
-+ 2026 — now   AI Engineer · NTI
++ 2026 — now   Fullstack AI Engineer · NTI
 #              Mind AI → production · 8× H200 serving · gov agentic-AI trainings
 + 2025 — 2026  Part-time AI Engineer · DriveD
 #              AI email auto-CC · Brandthink CRM Text-to-SQL + LINE OA agent
