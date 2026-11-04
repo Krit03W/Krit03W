@@ -27,6 +27,8 @@ philosophy: "Engineer first, then the model — measured before trusted."
 now:       Shipping multi-agent RAG systems to production
 ```
 
+<p align="center"><img src="./assets/fanout.svg" alt="Mind AI fan-out RAG" width="100%"/></p>
+
 ### `> ls ~/selected-work`
 
 | Project | What it does | Numbers |
