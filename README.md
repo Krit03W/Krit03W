@@ -20,12 +20,12 @@
 
 ```yaml
 name:      Wijak Manoprang
-role:      Fullstack AI Engineer @ New Technology Information (NTI)
+role:      Fullstack AI Engineer
 based_in:  Bangkok, Thailand 🇹🇭
 education: B.Eng. Robotics & Automation, KMUTT
 focus:     [multi-agent systems, RAG, MCP tool orchestration, on-prem LLM serving]
 philosophy: "Engineer first, then the model — measured before trusted."
-now:       Mind AI passed final acceptance for production in the Ministry of Industry e-License system
+now:       Shipping multi-agent RAG systems to production
 ```
 
 ### `> ./mind-ai --explain`
@@ -36,22 +36,11 @@ now:       Mind AI passed final acceptance for production in the Ministry of Ind
 
 | Project | What it does | Numbers |
 |:--|:--|:--|
-| 🏛️ **Mind AI** · NTI × Ministry of Industry | Two-chatbot multi-agent RAG for factory licensing + law advisory, with parallel VLM OCR document checks | In production · THB 20M project |
+| 🏛️ **Mind AI** | Two-chatbot multi-agent RAG for licensing + law advisory, with parallel VLM OCR document checks | In production · 7 laws in parallel |
 | 🔧 **Agentic CRM copilot with MCP** · KMUTT senior project | LLM performs CRM actions through MCP tools with validation + controlled execution | Accuracy **71.5% → 83.9%** · retries **−72%** · tool queries **−35%** |
-| 💬 **LINE OA sales agent + Text-to-SQL** · Brandthink via DriveD | Answers FAQs, scores lead intent, alerts sales; real-time CRM dashboard with Text-to-SQL chat | Saves execs hours of meetings / week |
+| 💬 **LINE OA sales agent + Text-to-SQL** | Answers FAQs, scores lead intent, alerts sales; real-time CRM dashboard with Text-to-SQL chat | Saves execs hours of meetings / week |
 | 🌐 **Autonomous browser agent** | Dual-agent Planner + Navigator that runs web tasks end to end | Extraction → form fill, hands-free |
-| 🔍 **On-prem RAG for government UAT** · Betimes | pgvector semantic search + self-hosted Typhoon LLM | No external API |
-
-### `> history | grep work`
-
-```diff
-+ 2026 — now   Fullstack AI Engineer · NTI
-#              Mind AI → production · 8× H200 serving · gov agentic-AI trainings
-+ 2025 — 2026  Part-time AI Engineer · DriveD
-#              AI email auto-CC · Brandthink CRM Text-to-SQL + LINE OA agent
-+ 2025         AI Developer Intern · Betimes Solutions
-#              RAG MVP with pgvector + on-prem Typhoon LLM
-```
+| 🔍 **On-prem RAG chatbot** | pgvector semantic search + self-hosted Typhoon LLM | No external API |
 
 ### `> pip list --tech-stack`
 

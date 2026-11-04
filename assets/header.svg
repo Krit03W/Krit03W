@@ -50,7 +50,7 @@
     <text x="64" y="224">MCP tool orchestration, self-hosted on-prem.</text>
   </g>
   <g class="mono fade d4" font-size="15">
-    <text x="64" y="272" fill="#6b7280">$ <tspan fill="#e5e7eb">whoami</tspan> <tspan fill="#a78bfa">--now</tspan> <tspan fill="#e5e7eb">NTI · Mind AI in production</tspan><tspan class="cursor" fill="#22d3ee">▋</tspan></text>
+    <text x="64" y="272" fill="#6b7280">$ <tspan fill="#e5e7eb">whoami</tspan> <tspan fill="#a78bfa">--now</tspan> <tspan fill="#e5e7eb">shipping agents to production</tspan><tspan class="cursor" fill="#22d3ee">▋</tspan></text>
   </g>
 
   <!-- right: agent graph -->
