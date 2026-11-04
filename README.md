@@ -61,13 +61,6 @@ now:       Shipping multi-agent RAG systems to production
   <img src="https://img.shields.io/badge/LINE_OA-0d1117?style=flat-square&logo=line&logoColor=a78bfa"/>
 </p>
 
-### `> cat awards.log`
-
-- 🥈 **Silver Medal — Super AI Engineer Season 6** (AIAT, 2026) · won the WellSense AIoT Hackathon
-- 🧠 **Psychology Insights Award — True CyberSafe Hackathon 2025** · AI parental control for high-risk websites
-- 🚀 **Startup Thailand League, SITE 2025** (NIA) · co-founded Tobtan.AI, selected & funded
-- 📜 **Huawei HCCDA-AI** · **AI Literacy for Power Users** (TPQI × Huawei)
-
 ### `> git log --stats`
 
 <p align="center">
